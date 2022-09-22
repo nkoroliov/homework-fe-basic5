@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(42, 42, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.tables{
+    margin: 40px 50px;
+    width: 50%;
+    background-color: rgb(46, 46, 46);
+    color: rgb(182, 181, 181);
+}
+
+.tables th{
+    padding: 0.8rem 0.8rem 0.8rem 1rem;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: 600;
+}
+
+.tables td{
+    padding: 0.8rem 0.8rem 0.8rem 1rem;
+}
+
+.tables tr{
+    border: 0.5px solid rgb(90, 89, 89);
+}
+
+.first-elements{
+    width: 50%;
+}
+
+.second-element{
+    color: rgb(101, 101, 101);
+    width: 25%;
+    
+}
+
+.third-element{
+    text-align: right;
+}
+
+.triangle{
+    display: inline-block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid rgb(255, 255, 255);
+    margin-left: 2%;
+}
+
+.box{
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.checkbox-minus{
+    width: 11px;
+    height: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Third table*/
+
+.third-table{
+    margin: 40px 50px;
+    width: 50%;
+    background-color: rgb(46, 46, 46);
+    color: rgb(182, 181, 181);
+}
+
+.third-table th{
+    padding: 0.3rem 0.3rem 0.3rem 1rem;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.third-table td{
+    padding: 0.8rem 0.8rem 0.8rem 1rem;
+    
+    
+}
+
+.third-table tr{
+    border: 0.5px solid rgb(90, 89, 89);
+
+}
+
+.drawer{
+    width: 18px;
+    height: 18px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.search-section{
+    display: flex;
+    
+}
+
+.search-input{
+    display: flex;
+    position: relative;
+    background-color: rgb(67, 67, 67);
+    border-radius: 6px;
+    width: 100%;
+    height: 2.2rem;
+    align-items: center;
+    padding-left: 0.6rem;
+    font-size: 14px;
+    text-indent: 27px;
+    border: none;
+    color: rgb(113, 113, 113);
+}
+
+.search-input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.search-button{
+    position: absolute;
+    margin: 0.8rem 1rem 1rem 0.8rem;
+    align-items: center;
+    width: 13px;
+    height: 13px;
+    margin-right: 0.5rem;
+}
+
+
+.name {
+text-align: left;
+}
+
+.date{
+    text-align: left;
+}
